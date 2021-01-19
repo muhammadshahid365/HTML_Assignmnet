@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div style="background-color: blueviolet; display: flex;">
+        <img src="./img/Logo.png" alt="logo" style="display: inline-block; margin: 20px; width: 100px;">
+        <div style="display: inline-block;margin: auto;">
+            <a href="index.html">
+                <h3 style="display: inline-block; margin: 30px; color: white;">HOME</h3>
+            </a>
+            <a href="about.html">
+                <h3 style="display: inline-block; margin: 30px; color: white;">ABOUT</h3>
+            </a>
+            <a href="portfolio.html">
+                <h3 style="display: inline-block; margin: 30px; color: white;">PORTFOLIO</h3>
+            </a>
+            <a href="contact.html">
+                <h3 style="display: inline-block; margin: 30px; color: white;">CONTACT</h3>
+            </a>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <form action="#">
+        <fieldset><br>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="fname"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="fname"><br><br>
+        </fieldset><br>
+        <fieldset><br>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us?</label>
+            <select>
+                <option>Google</option>
+                <option>Friend or Family</option>
+                <option>News</option>
+            </select><br><br>
+            <label>Would you visit again?</label><br>
+            <input type="radio" name="visit" value="yes" id="yes"><label for="yes">Yes</label>
+            <input type="radio" name="visit" value="no" id="no"><label for="no">No</label>
+            <input type="radio" name="visit" value="maybe" id="maybe"><label for="maybe">Maybe</label><br><br>
+            <label for="comments">Comments</label><br>
+            <textarea id="comments" rows="7" cols="40"></textarea><br><br>
+            <input type="checkbox" id="signup">
+            <label for="signup">Sign me up for Email updates</label><br><br>
+            <input type="submit" value="Submit Review">
+        </fieldset>
+    </form><br><br>
+
+    <div style="width: 800px; margin: auto;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.554301834138!2d74.31648756907597!3d31.563844205011154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191b53e188ecf1%3A0x6b6a201f2052e115!2sHall%20Rd%2C%20Lahore%2C%20Punjab%2054000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1609849114857!5m2!1sen!2s"
+            width="1000" height="450" frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </div>
+    <!-- FOOTER -->
+    <div style="background-color: blueviolet; font-size: 20px; text-align: center; padding: 10px 0;">
+        Copyright © 2021. All rights reserved.
+    </div>
+</body>
+
+</html>
